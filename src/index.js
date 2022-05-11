@@ -6,7 +6,7 @@ import modal from './modules/modal'
 import sliders from './modules/sliders'
 import formSender from './modules/formSender'
 
-timerclock('10 may 2022')
+timerclock('25 may 2022')
 toTopBtn()
 calculatorCounter()
 sliders()
