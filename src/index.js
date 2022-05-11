@@ -1,12 +1,16 @@
 import toTopBtn from './modules/toTopBtn'
 import timerclock from './modules/timerclock'
 import calculatorCounter from './modules/calculatorCntr'
+import imgZm from './modules/imgZm'
 import modal from './modules/modal'
+import sliders from './modules/sliders'
 import formSender from './modules/formSender'
 
+timerclock('10 may 2022')
 toTopBtn()
 calculatorCounter()
-timerclock('10 may 2022')
+sliders()
+imgZm()
 modal()
 
 const forms = document.querySelectorAll('form')
